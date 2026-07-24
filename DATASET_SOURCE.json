@@ -1,0 +1,29 @@
+{
+  "collections": [
+    {
+      "id": "ieee118-base-state-estimation",
+      "relationship": "producer",
+      "required_for": [
+        "base-dataset-publication"
+      ]
+    },
+    {
+      "id": "ieee118-transient-and-fault",
+      "relationship": "producer",
+      "required_for": [
+        "transient-dataset-publication"
+      ]
+    }
+  ],
+  "exact_file_inventory_status": "partial-shared-record",
+  "record": {
+    "concept_doi": "10.5281/zenodo.20744597",
+    "dataset_landing_page": "https://doi.org/10.5281/zenodo.20744597",
+    "file_policy": "dataset-payloads-only",
+    "record_id": 21533592,
+    "resource_type": "dataset",
+    "status": "draft",
+    "version_doi": "10.5281/zenodo.21533592"
+  },
+  "schema_version": 1
+}

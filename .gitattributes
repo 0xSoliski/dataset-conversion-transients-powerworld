@@ -1,0 +1,12 @@
+# Keep text normalization predictable.
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+
+# Dataset payloads are binary and should not be diffed as text.
+*.mat binary
+*.xlsx binary
+*.xls binary
+*.zip binary
+*.aux binary

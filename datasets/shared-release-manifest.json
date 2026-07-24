@@ -1,0 +1,2629 @@
+{
+  "empty_or_runtime_generated_collections": [
+    {
+      "collection_id": "ieee14-fdia",
+      "evidence_status": "verified-generated-at-runtime",
+      "repository": "pinns-models-csr",
+      "rights_status": "pending-base-dataset-rights"
+    }
+  ],
+  "files": [
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/simple_fdia/zone19/fdia_attacks_case118_3700samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5287976,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "010f0aa257d931ecb84c8bbccdca60d813f6b67910018e319888021b087806e8",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__simple_fdia__zone19__fdia_attacks_case118_3700samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/line_overload/zone29/fdia_attacks_case118_3687samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5238339,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "0757a37097283f1426d74c5a7f00f205b0c6927b2cfcb2a36b20eab632028f38",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__line_overload__zone29__fdia_attacks_case118_3687samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/data_manip_ieee14_11.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 456501,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "07ca1553a2d291db93c599ff2e9fa03949ca1ae82bdefffd688805f9b23a7530",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__data_manip_ieee14_11.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/data_manip_ieee14.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 574208,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "1135428cd2529abf03b81a92f77936ed0125e4e5e1271881c9fb47935cc1369e",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__data_manip_ieee14.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/line_overload/zone6/fdia_attacks_case118_3694samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_line_overload/fdia_attacks_case118_3694samples.npz",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5273533,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "14986561ecc584a1bb36d37d073fef02ec72ed98443c6251db92f32eb3600d35",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__line_overload__zone6__fdia_attacks_case118_3694samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_gen122_open/dataset_gen122_open.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3353033,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "177abbe58419611518e89f5a5a990295cbf6fbf0317cbfa6688989d4161fa9ee",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_gen122_open__dataset_gen122_open.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/fdia_dataset_contiguous_ieee14_zone3.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 287229,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "266279b5dc9a4750bf8e81f81d7c74fad9b1afee96c252daaa25b4604ea5e88b",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__fdia_dataset_contiguous_ieee14_zone3.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/load_redistribution/zone6/fdia_attacks_case118_3694samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_load_redistribution/fdia_attacks_case118_3694samples.json",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 42101255,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "291c25b46c2c19fe08df8fbe542096cef71104cdc8dcb29451c33702e3cac9cb",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__load_redistribution__zone6__fdia_attacks_case118_3694samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/simple_fdia/zone6/fdia_attacks_case118_3694samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_simple_fdia/fdia_attacks_case118_3694samples.npz",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5276617,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "2a477a7caa664f40f735651e852ea861d6b8c7e2424f934040c0b7ad0447cb66",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__simple_fdia__zone6__fdia_attacks_case118_3694samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/load_redistribution/zone19/fdia_attacks_case118_3700samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41468792,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "2b8ca673f0043f2976e4627260c570b534640ea3280ef0ad5dc50043e05c67d5",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__load_redistribution__zone19__fdia_attacks_case118_3700samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/load-increase-20-to-27/dataset.mat",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        },
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "path": "dataset/validation/dataset_20_to_27_Load_Incr.mat",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia-ablation-faults",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "44fce1e3ca1b9bebca94a83c1f01886053e61217"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 1335376,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified",
+        "verified-duplicate-preservation-copy"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "31eec3918f5c7f687536e3b7d3941560db1fbf6b44826a4a8590451bf8d08fee",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__load-increase-20-to-27__dataset.mat"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/line_overload/zone29/fdia_attacks_case118_3687samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41059077,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "32305417576863ad4c18871667eb5a03cb57ba893c07c1ae8051e4b0c379ed4d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__line_overload__zone29__fdia_attacks_case118_3687samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-power-flow-CSR/dataset_extended/steady_state_extended.csv",
+          "provenance": "project-experiment-dataset",
+          "repository": "pinns-models-csr",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "b6a90de5c8853b4ffb797cf89d96a25897d79b75"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3848751,
+      "collection_ids": [
+        "ieee14-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "3492e0da23a32d3eec8a9ecfee0bf42f14d6937f53c191a8bdb4c320b813b01d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-base-state-estimation__pinns-models-csr__pinns-power-flow-CSR__dataset_extended__steady_state_extended.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/state_estimation_corruption/zone29/fdia_attacks_case118_3703samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5256302,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "350c97ae0b72447fc3b58243ad8505928f489359372e580ef8af9ac784c49354",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__state_estimation_corruption__zone29__fdia_attacks_case118_3703samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/gen26_shutdown/dataset.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3749347,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "3b84b0c1ab36e1f166cff984a5ebc6ad093e509a8c017dbfdcf214da4f57a488",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__gen26_shutdown__dataset.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/load_redistribution/zone29/fdia_attacks_case118_3703samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41286717,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "3b95f5d6fd4b4af96cfde9c0ef3ceb6a238b56a3a610a787c110e5c1594f1985",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__load_redistribution__zone29__fdia_attacks_case118_3703samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/simple_fdia/zone6/fdia_attacks_case118_3694samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_simple_fdia/fdia_attacks_case118_3694samples.json",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 42054217,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "3bbe280e13adf00b8965bcab874d8d06b0aadb02e33de8526725c69f9daa8068",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__simple_fdia__zone6__fdia_attacks_case118_3694samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/3pf_bus2/transient_3pf_bus2.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 424298,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "436ba4e6c1c31d4e1bca1de244a1209c6ab3905eae2e773ebb640f03597a7f0d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__3pf_bus2__transient_3pf_bus2.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/line_overload/zone19/fdia_attacks_case118_3700samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41556988,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "4634daedbeaad8274bd50987a1b871ab2c9ae059aba26d05b34b3d954a30dae7",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__line_overload__zone19__fdia_attacks_case118_3700samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-power-flow-CSR/dataset_extended/G.csv",
+          "provenance": "project-experiment-dataset",
+          "repository": "pinns-models-csr",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "b6a90de5c8853b4ffb797cf89d96a25897d79b75"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 1252,
+      "collection_ids": [
+        "ieee14-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "53e117bfe8021ac139158ea7498d2ea8986358148a2cb2031f6e4656eab8e9de",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-base-state-estimation__pinns-models-csr__pinns-power-flow-CSR__dataset_extended__G.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/data_manip_ieee14_14.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 455769,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "5877e754489e8fa68ee962e5a154884fc030be04181ff8ffa09932bc3df96a5d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__data_manip_ieee14_14.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_15minutes/dataset_IEEE118.csv",
+          "provenance": "paper-format-conversion",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 251866,
+      "collection_ids": [
+        "ieee118-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "598e410edbcc0d73f600f3e85813a4a82f4cf95e81fb75b070abaa2dc2560fe7",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-base-state-estimation__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_15minutes__dataset_IEEE118.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_3pf_19/dataset_3pf_19.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3330673,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "5d37dd94a5d957d47b58cedbf282a3f426b8b0df32ed1771a8bbfd020b7de124",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_3pf_19__dataset_3pf_19.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/load_redistribution/zone6/fdia_attacks_case118_3694samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_load_redistribution/fdia_attacks_case118_3694samples.npz",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5276207,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "5fd175d273c8273744164f2c5b4fefaa58dbb8ad53c2cacb86e8503648f3785e",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__load_redistribution__zone6__fdia_attacks_case118_3694samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/3pf_bus7/transient_3pf_bus7.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 424333,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "6162cd7ce5a9eb75bac4fb2fda4c25db895e5f37ac3b6097ba4dbb0197597dca",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__3pf_bus7__transient_3pf_bus7.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/three-phase-fault-bus19/dataset.mat",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        },
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "path": "dataset/validation/dataset_3pf_19.mat",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia-ablation-faults",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "44fce1e3ca1b9bebca94a83c1f01886053e61217"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 893220,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified",
+        "verified-duplicate-preservation-copy"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "69e5e54ed1c438376e68879d04a118b36a412afa9176f0f2d4a67e2888f6553f",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__three-phase-fault-bus19__dataset.mat"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/gen59_shutdown/dataset.mat",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        },
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "path": "dataset/validation/dataset_gen59_shutdown.mat",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia-ablation-faults",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "44fce1e3ca1b9bebca94a83c1f01886053e61217"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 1029974,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified",
+        "verified-duplicate-preservation-copy"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "6bbdf244dd67c7bc31ea3e3037425a84c1c0f6b13d82ceef45042dab3975a57a",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__gen59_shutdown__dataset.mat"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/line_overload/zone6/fdia_attacks_case118_3694samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_line_overload/fdia_attacks_case118_3694samples.json",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 42141154,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "702d6cd2dc1ec69affef1caf27442f2d8b0365669c8ad9fe784cbbd321b4c6e3",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__line_overload__zone6__fdia_attacks_case118_3694samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/line_overload/zone19/fdia_attacks_case118_3700samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5268291,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "7358c91565152e3000613aac20948e62ba3857d041303e0df42d7ac3282e246f",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__line_overload__zone19__fdia_attacks_case118_3700samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/gen2_decr/gen2_decr.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 426734,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "76ca78cff66a6d2ec74dbec87fcfbd40ddb6518bfd1ebd923b0157edb9b9d530",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__gen2_decr__gen2_decr.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/state_estimation_corruption/zone29/fdia_attacks_case118_3703samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41239239,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "79fc0e796b46c9199458392ac43948efdfa379a9be1beae4f46691ba05c2a06e",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__state_estimation_corruption__zone29__fdia_attacks_case118_3703samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_20_to_27_Load_Incr/dataset_20_to_27_Load_Incr.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3362107,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "7db43a722540ac824bb4f9f06fd8bc998fdc11ed7c2b0bce469e92e7d40d1093",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_20_to_27_Load_Incr__dataset_20_to_27_Load_Incr.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_15minutes/B_matrix.csv",
+          "provenance": "paper-format-conversion",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 29878,
+      "collection_ids": [
+        "ieee118-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "7f61ef1c7ab78b3490aa361d3bcb9ca91a75b348d5993011168a705a03a983c7",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-base-state-estimation__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_15minutes__B_matrix.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/steady_state/full_dataset_markos.csv",
+          "provenance": "project-experiment-dataset",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 64379,
+      "collection_ids": [
+        "ieee14-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "8672006ab81d5ad6c022f48878d6ceab0c3f1b2eceab0316ad40923fc1626570",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-base-state-estimation__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__steady_state__full_dataset_markos.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/state_estimation_corruption/zone6/fdia_attacks_case118_3694samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_state_estimation_corruption/fdia_attacks_case118_3694samples.json",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 42137189,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "9144ce3af4630c6fc9d9d3d573fe0990ecffbf1dfd36d450270b573ca9661643",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__state_estimation_corruption__zone6__fdia_attacks_case118_3694samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/gen2_incr_same/gen2_incr_same.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 428468,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "91501bc222962366954f101897535b71c9f0c19cfadbb8bf52463da444fb111c",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__gen2_incr_same__gen2_incr_same.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/simple_fdia/zone19/fdia_attacks_case118_3700samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41451817,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "9464d8d64ce704904f330fc0711c97a1042f1b206526b50d387f3af189d2c35d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__simple_fdia__zone19__fdia_attacks_case118_3700samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/state_estimation_corruption/zone19/fdia_attacks_case118_3700samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41532179,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "9adc1f4a20695f8b41484e4a943c04c3fa6d5dd030b76676733dcbd2220c7d28",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__state_estimation_corruption__zone19__fdia_attacks_case118_3700samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/data_manip_ieee14_2.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 454061,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "9af21bd39a77129cef14a0cdf35bfe6bace4481bbc255f686a7319ca5168699d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__data_manip_ieee14_2.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/state_estimation_corruption/zone19/fdia_attacks_case118_3700samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5259554,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "9b7797ee970c5a42d726466ceadfbbf9166eee2800cf64ceb220871f26e8f2b3",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__state_estimation_corruption__zone19__fdia_attacks_case118_3700samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/steady_state/G.csv",
+          "provenance": "project-experiment-dataset",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 966,
+      "collection_ids": [
+        "ieee14-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "9b98c0874863dcf5e11dd832be6366b2b954b42fcd815b1f13740f82a85de737",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-base-state-estimation__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__steady_state__G.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_15minutes/G_matrix.csv",
+          "provenance": "paper-format-conversion",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 29728,
+      "collection_ids": [
+        "ieee118-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "a34f321c43b3380ff6cf6d24db3d582349a26d8e6885777d4ee1dc56668f6275",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-base-state-estimation__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_15minutes__G_matrix.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/load_redistribution/zone29/fdia_attacks_case118_3703samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5268964,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "a4f11326361b8bf9c1397e8ce91f4240cd07d45907d2efc897af4593d8fe51d6",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__load_redistribution__zone29__fdia_attacks_case118_3703samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/fdia_dataset_contiguous_ieee14.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 286819,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "aa05127a8b94e76c85ca1f71f8e810e32c2ca7506742dad62bc2c924655ed1b8",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__fdia_dataset_contiguous_ieee14.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/B_matrix.csv",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 1218,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "ac444b5932257466acf33495748a9e1590fd6e424264dbda99e5266fe3243d4a",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__B_matrix.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/gen59_shutdown/dataset.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3751639,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "b37a285771f078ef7492e6efc8e7ca5fa33c16b7eda5a504f174c81f76d6fba7",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__gen59_shutdown__dataset.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/simple_fdia/zone29/fdia_attacks_case118_3703samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5277252,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "bb250bb4f074c250804a63f9662789b25270b634bb4af1e2d19fae3e0457dbff",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__simple_fdia__zone29__fdia_attacks_case118_3703samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/gen2_decr_same/gen2_decr_same.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 427842,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "be03ef15776ef53f60e55dd2591af1c8f36bfb5e4e1e90e86a63f5213c641401",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__gen2_decr_same__gen2_decr_same.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/gen26_shutdown/dataset.mat",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        },
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "path": "dataset/validation/dataset_gen26_shutdown.mat",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia-ablation-faults",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "44fce1e3ca1b9bebca94a83c1f01886053e61217"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 1248476,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified",
+        "verified-duplicate-preservation-copy"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "bf37cb4a4884e16d0da3cc5e9542e1c02f450900fcfb46dae7cf2840cb8c613a",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__gen26_shutdown__dataset.mat"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "datasets/psse-via-dnns/original/pypower-ieee118/combined_dataset.mat",
+          "provenance": "third-party-upstream",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-upstream-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-upstream-permission"
+      ],
+      "bytes": 51857108,
+      "collection_ids": [
+        "ieee118-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-upstream-permission"
+      ],
+      "sha256": "c062ae68af28f4e6b0b3d96e456f1f7a5d1c1fe165b884588069ff97c9539ecb",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-base-state-estimation__dataset-conversion-transients-powerworld__datasets__psse-via-dnns__original__pypower-ieee118__combined_dataset.mat"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/3pf_bus5/3pf_bus5.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 423912,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "c26c0395a3b210bd334f1435257c014610cc6bfee067077302726da10d94c376",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__3pf_bus5__3pf_bus5.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/steady_state/B.csv",
+          "provenance": "project-experiment-dataset",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 940,
+      "collection_ids": [
+        "ieee14-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "c6030ea1a400e9e4a45b26bbd9b4190b44be7b66e80b0aaa6ff4bb2c88879eda",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-base-state-estimation__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__steady_state__B.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/gen2_incr/gen2_incr.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 428366,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "cde359eef6d2a5ef9c5b3887d187fbf64e30e63b09d58386c5b5f5a7e543e0ab",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__gen2_incr__gen2_incr.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/combined_dataset.npz",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 454139,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "cfac34fe73afa378d66f6666efc685da0be1f46e5e7be4b618615810a159edd4",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__combined_dataset.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/state_estimation_corruption/zone6/fdia_attacks_case118_3694samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        },
+        {
+          "attack_area_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            29,
+            30,
+            32,
+            33,
+            36,
+            112
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-duplicate-preservation-copy",
+          "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+          "path": "dataset/IEEE-118-bus/fdia/output_zone4_radius1_state_estimation_corruption/fdia_attacks_case118_3694samples.npz",
+          "provenance": "paper-facing-preservation-copy",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5256097,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-duplicate-preservation-copy",
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "dabee025703dbabf3fb8ebaa6bfd09643040b9d09fd0cd9032ae51ddd733cf03",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__state_estimation_corruption__zone6__fdia_attacks_case118_3694samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            91,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            105
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/simple_fdia/zone29/fdia_attacks_case118_3703samples.json",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 41186369,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "dbb51b37c0c4c4b33789f07796cc8c4abd5c19d3791eabc7ba33f1ee72b0c8f2",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__simple_fdia__zone29__fdia_attacks_case118_3703samples.json"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-base-state-estimation",
+          "evidence_status": "verified",
+          "path": "pinns-power-flow-CSR/dataset_extended/B.csv",
+          "provenance": "project-experiment-dataset",
+          "repository": "pinns-models-csr",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "b6a90de5c8853b4ffb797cf89d96a25897d79b75"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 1204,
+      "collection_ids": [
+        "ieee14-base-state-estimation"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "dbcecf16414c8bdfcf016a0328c0630b7df0977d526316fd16a9f09469c3b55d",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-base-state-estimation__pinns-models-csr__pinns-power-flow-CSR__dataset_extended__B.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/gen2_incr_diff/gen2_incr_diff.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 429598,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "e252b3225f42848c0c065ec8b46e38e8c5571c414edc78252a7f6ae5c6ade4b7",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__gen2_incr_diff__gen2_incr_diff.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/3pf_bus12/3pf_bus12.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 422412,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "ea1c8b9a26ca57bf8659065cc68e137d1e86ca45afc3bd95551ca63cce779c4c",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__3pf_bus12__3pf_bus12.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/three-phase-fault-bus19/dataset.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3737232,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "f1a322c1a171f4db297bb2f789b1a7f5bad3ac5cebb5321bd868d6687390cabf",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__three-phase-fault-bus19__dataset.csv"
+    },
+    {
+      "aliases": [
+        {
+          "attack_area_zero_based": [
+            41,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            53,
+            55,
+            56,
+            65,
+            68
+          ],
+          "collection_id": "ieee118-fdia",
+          "evidence_status": "verified-experiment-artifact",
+          "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+          "path": "output/evaluation_comprehensive_journal/testing_datasets/load_redistribution/zone19/fdia_attacks_case118_3700samples.npz",
+          "provenance": "solver-generated-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 5245749,
+      "collection_ids": [
+        "ieee118-fdia"
+      ],
+      "evidence_statuses": [
+        "verified-experiment-artifact"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "f45ddd5575e3bf2a68262a57f18eae0461e5796bbcd6656d3e0b65277a6012f0",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-fdia__pinns-models-fdia__output__evaluation_comprehensive_journal__testing_datasets__load_redistribution__zone19__fdia_attacks_case118_3700samples.npz"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_14bus/dataset/gen2_decr_diff/gen2_decr_diff.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 428925,
+      "collection_ids": [
+        "ieee14-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "f540c253607e65da237928d788d1c16e7eba8c0b143b0bbf0f7ad4f76b940f24",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_14bus__dataset__gen2_decr_diff__gen2_decr_diff.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "datasets/powerworld-ieee118/transient-simulations/load-increase-20-to-27/dataset.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "dataset-conversion-transients-powerworld",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "571247ffb3c43783b11020e4187d7604a83d14bc"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3760960,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "fab66e4b4068bcdedfb3aeb4373d5ef08ad1aeb56f774a9b2c09f8ca421338ff",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__dataset-conversion-transients-powerworld__datasets__powerworld-ieee118__transient-simulations__load-increase-20-to-27__dataset.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee14-fdia",
+          "evidence_status": "verified",
+          "path": "dataset/IEEE-14-bus/G_matrix.csv",
+          "provenance": "project-derived-fdia",
+          "repository": "pinns-models-fdia",
+          "rights_status": "pending-base-dataset-rights",
+          "source_commit": "e5351faef9c0070b385658970ea9593af1b1a72d"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-base-dataset-rights"
+      ],
+      "bytes": 1266,
+      "collection_ids": [
+        "ieee14-fdia"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-base-dataset-rights"
+      ],
+      "sha256": "fb6ffa112b34db80fc547295bf79761d108c50d002026a5f8cfd695a7feb4ee3",
+      "upload_eligible": false,
+      "zenodo_key": "ieee14-fdia__pinns-models-fdia__dataset__IEEE-14-bus__G_matrix.csv"
+    },
+    {
+      "aliases": [
+        {
+          "collection_id": "ieee118-transient-and-fault",
+          "evidence_status": "verified",
+          "path": "pinns-code-tii/ieee_118bus/dataset_3pf_33/dataset_3pf_33.csv",
+          "provenance": "project-derived-powerworld-export",
+          "repository": "pinns-models-tii",
+          "rights_status": "pending-simulator-permission",
+          "source_commit": "6d4605d9fae9d36d4f64baed397cff1339c0f675"
+        }
+      ],
+      "block_reasons": [
+        "rights:pending-simulator-permission"
+      ],
+      "bytes": 3331425,
+      "collection_ids": [
+        "ieee118-transient-and-fault"
+      ],
+      "evidence_statuses": [
+        "verified"
+      ],
+      "license": null,
+      "rights_statuses": [
+        "pending-simulator-permission"
+      ],
+      "sha256": "fbd22e3eb7b7125d0aafa4d00ce82d7121857f01a6e6b01ea1ee9413bd42be46",
+      "upload_eligible": false,
+      "zenodo_key": "ieee118-transient-and-fault__pinns-models-tii__pinns-code-tii__ieee_118bus__dataset_3pf_33__dataset_3pf_33.csv"
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "blocked_unique_files": 65,
+    "declared_aliases": 77,
+    "empty_or_runtime_generated_collections": 1,
+    "total_bytes_unique": 658605506,
+    "unique_files": 65,
+    "upload_eligible_unique_files": 0
+  },
+  "target": {
+    "concept_doi": "10.5281/zenodo.20744597",
+    "file_policy": "dataset-payloads-only",
+    "license": "CC-BY-4.0",
+    "record_id": 21533592,
+    "resource_type": "dataset",
+    "status": "draft",
+    "version_doi": "10.5281/zenodo.21533592"
+  },
+  "upload_ready": false
+}

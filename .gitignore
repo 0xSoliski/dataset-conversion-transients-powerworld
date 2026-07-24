@@ -1,0 +1,47 @@
+# Local Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local tool caches
+.external-cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Packaging, generated reports, and scratch output
+build/
+dist/
+*.egg-info/
+output/
+artifacts/
+**/validation_report.txt
+**/*validation_report.txt
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# Dataset payloads are published through the pinned Zenodo dataset record.
+# Keep conversion source and machine-readable provenance manifests on GitHub.
+/datasets/**
+!/datasets/
+!/datasets/**/
+!/datasets/**/*.py
+!/datasets/**/*.m
+!/datasets/**/*.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo

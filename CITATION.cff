@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this dataset-generation workflow, please cite it and the upstream data/methodology references."
+title: "IEEE 118-bus Transient Stability Dataset"
+type: software
+authors:
+  - family-names: "Falas"
+    given-names: "Solon"
+repository-code: "https://github.com/0xSoliski/dataset-conversion-transients-powerworld"
+url: "https://github.com/0xSoliski/dataset-conversion-transients-powerworld"
+license: MIT
+references:
+  - type: software
+    title: "PINN FDIA Ablation Pipeline"
+    authors:
+      - name: "0xSoliski"
+    repository-code: "https://github.com/0xSoliski/pinns-models-fdia-ablation-dynamic"
+  - type: article
+    title: "Global Energy Forecasting Competition 2012"
+    authors:
+      - family-names: "Hong"
+        given-names: "Tao"
+      - family-names: "Pinson"
+        given-names: "Pierre"
+      - family-names: "Fan"
+        given-names: "Shu"
+    journal: "International Journal of Forecasting"
+    year: 2014
+    doi: "10.1016/j.ijforecast.2013.07.001"
+  - type: article
+    title: "Real-time Power System State Estimation and Forecasting via Deep Neural Networks"
+    authors:
+      - family-names: "Zhang"
+        given-names: "Liang"
+      - family-names: "Wang"
+        given-names: "Gang"
+      - family-names: "Giannakis"
+        given-names: "Georgios B."
+    year: 2018
+    url: "https://arxiv.org/abs/1811.06146"
+  - type: article
+    title: "Dynamic IEEE Test Systems for Transient Analysis"
+    authors:
+      - family-names: "Demetriou"
+        given-names: "Panayiotis"
+      - family-names: "Asprou"
+        given-names: "Markos"
+      - family-names: "Quiros-Tortos"
+        given-names: "Jairo"
+      - family-names: "Kyriakides"
+        given-names: "Elias"
+    journal: "IEEE Systems Journal"
+    year: 2017
+    doi: "10.1109/JSYST.2015.2444894"

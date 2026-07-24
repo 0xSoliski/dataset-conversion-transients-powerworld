@@ -1,0 +1,166 @@
+{
+  "dataset_license": "CC-BY-4.0",
+  "schema_version": 1,
+  "sources": [
+    {
+      "collection_id": "ieee118-base-state-estimation",
+      "evidence_status": "verified",
+      "paths": [
+        "datasets/psse-via-dnns/original/pypower-ieee118/combined_dataset.mat"
+      ],
+      "provenance": "third-party-upstream",
+      "repository": "dataset-conversion-transients-powerworld",
+      "rights_status": "pending-upstream-permission"
+    },
+    {
+      "collection_id": "ieee118-transient-and-fault",
+      "evidence_status": "verified",
+      "paths": [
+        "datasets/powerworld-ieee118/transient-simulations/gen26_shutdown/dataset.csv",
+        "datasets/powerworld-ieee118/transient-simulations/gen26_shutdown/dataset.mat",
+        "datasets/powerworld-ieee118/transient-simulations/gen59_shutdown/dataset.csv",
+        "datasets/powerworld-ieee118/transient-simulations/gen59_shutdown/dataset.mat",
+        "datasets/powerworld-ieee118/transient-simulations/load-increase-20-to-27/dataset.csv",
+        "datasets/powerworld-ieee118/transient-simulations/load-increase-20-to-27/dataset.mat",
+        "datasets/powerworld-ieee118/transient-simulations/three-phase-fault-bus19/dataset.csv",
+        "datasets/powerworld-ieee118/transient-simulations/three-phase-fault-bus19/dataset.mat"
+      ],
+      "provenance": "project-derived-powerworld-export",
+      "repository": "dataset-conversion-transients-powerworld",
+      "rights_status": "pending-simulator-permission"
+    },
+    {
+      "collection_id": "ieee14-base-state-estimation",
+      "evidence_status": "verified",
+      "paths": [
+        "pinns-code-tii/ieee_14bus/dataset/steady_state/B.csv",
+        "pinns-code-tii/ieee_14bus/dataset/steady_state/G.csv",
+        "pinns-code-tii/ieee_14bus/dataset/steady_state/full_dataset_markos.csv"
+      ],
+      "provenance": "project-experiment-dataset",
+      "repository": "pinns-models-tii",
+      "rights_status": "pending-simulator-permission"
+    },
+    {
+      "collection_id": "ieee14-transient-and-fault",
+      "evidence_status": "verified",
+      "paths": [
+        "pinns-code-tii/ieee_14bus/dataset/gen2_decr/gen2_decr.csv",
+        "pinns-code-tii/ieee_14bus/dataset/gen2_decr_same/gen2_decr_same.csv",
+        "pinns-code-tii/ieee_14bus/dataset/gen2_decr_diff/gen2_decr_diff.csv",
+        "pinns-code-tii/ieee_14bus/dataset/gen2_incr/gen2_incr.csv",
+        "pinns-code-tii/ieee_14bus/dataset/gen2_incr_same/gen2_incr_same.csv",
+        "pinns-code-tii/ieee_14bus/dataset/gen2_incr_diff/gen2_incr_diff.csv",
+        "pinns-code-tii/ieee_14bus/dataset/3pf_bus2/transient_3pf_bus2.csv",
+        "pinns-code-tii/ieee_14bus/dataset/3pf_bus5/3pf_bus5.csv",
+        "pinns-code-tii/ieee_14bus/dataset/3pf_bus7/transient_3pf_bus7.csv",
+        "pinns-code-tii/ieee_14bus/dataset/3pf_bus12/3pf_bus12.csv"
+      ],
+      "provenance": "project-derived-powerworld-export",
+      "repository": "pinns-models-tii",
+      "rights_status": "pending-simulator-permission"
+    },
+    {
+      "collection_id": "ieee118-base-state-estimation",
+      "evidence_status": "verified",
+      "paths": [
+        "pinns-code-tii/ieee_118bus/dataset_15minutes/B_matrix.csv",
+        "pinns-code-tii/ieee_118bus/dataset_15minutes/G_matrix.csv",
+        "pinns-code-tii/ieee_118bus/dataset_15minutes/dataset_IEEE118.csv"
+      ],
+      "provenance": "paper-format-conversion",
+      "repository": "pinns-models-tii",
+      "rights_status": "pending-base-dataset-rights"
+    },
+    {
+      "collection_id": "ieee118-transient-and-fault",
+      "evidence_status": "verified",
+      "paths": [
+        "pinns-code-tii/ieee_118bus/dataset_20_to_27_Load_Incr/dataset_20_to_27_Load_Incr.csv",
+        "pinns-code-tii/ieee_118bus/dataset_3pf_19/dataset_3pf_19.csv",
+        "pinns-code-tii/ieee_118bus/dataset_3pf_33/dataset_3pf_33.csv",
+        "pinns-code-tii/ieee_118bus/dataset_gen122_open/dataset_gen122_open.csv"
+      ],
+      "provenance": "project-derived-powerworld-export",
+      "repository": "pinns-models-tii",
+      "rights_status": "pending-simulator-permission"
+    },
+    {
+      "collection_id": "ieee14-base-state-estimation",
+      "evidence_status": "verified",
+      "paths": [
+        "pinns-power-flow-CSR/dataset_extended/B.csv",
+        "pinns-power-flow-CSR/dataset_extended/G.csv",
+        "pinns-power-flow-CSR/dataset_extended/steady_state_extended.csv"
+      ],
+      "provenance": "project-experiment-dataset",
+      "repository": "pinns-models-csr",
+      "rights_status": "pending-simulator-permission"
+    },
+    {
+      "collection_id": "ieee14-fdia",
+      "evidence_status": "verified-generated-at-runtime",
+      "paths": [],
+      "provenance": "deterministic-manipulation-of-clean-test-split",
+      "repository": "pinns-models-csr",
+      "rights_status": "pending-base-dataset-rights"
+    },
+    {
+      "collection_id": "ieee118-fdia",
+      "evidence_status": "verified-experiment-artifact",
+      "glob_paths": [
+        "output/evaluation_comprehensive_journal/testing_datasets/**/*.json",
+        "output/evaluation_comprehensive_journal/testing_datasets/**/*.npz"
+      ],
+      "paper_alignment_note": "These are the complete four-family by three-zone journal experiment artifacts. The zone6, zone19, and zone29 directory names are historical aliases; each JSON sidecar records the exact attack-area buses. The journal manuscript's tab:fdia_zones lists different bus sets and must not be used to relabel these artifacts.",
+      "paths": [],
+      "provenance": "solver-generated-fdia",
+      "repository": "pinns-models-fdia",
+      "rights_status": "pending-base-dataset-rights"
+    },
+    {
+      "collection_id": "ieee118-fdia",
+      "evidence_status": "verified-duplicate-preservation-copy",
+      "glob_paths": [
+        "dataset/IEEE-118-bus/fdia/**/*.json",
+        "dataset/IEEE-118-bus/fdia/**/*.npz"
+      ],
+      "paper_alignment_note": "Duplicate preservation aliases for the historical zone6 artifacts.",
+      "paths": [],
+      "provenance": "paper-facing-preservation-copy",
+      "repository": "pinns-models-fdia",
+      "rights_status": "pending-base-dataset-rights"
+    },
+    {
+      "collection_id": "ieee14-fdia",
+      "evidence_status": "verified",
+      "paths": [
+        "dataset/IEEE-14-bus/B_matrix.csv",
+        "dataset/IEEE-14-bus/G_matrix.csv",
+        "dataset/IEEE-14-bus/combined_dataset.npz",
+        "dataset/IEEE-14-bus/data_manip_ieee14.npz",
+        "dataset/IEEE-14-bus/data_manip_ieee14_11.npz",
+        "dataset/IEEE-14-bus/data_manip_ieee14_14.npz",
+        "dataset/IEEE-14-bus/data_manip_ieee14_2.npz",
+        "dataset/IEEE-14-bus/fdia_dataset_contiguous_ieee14.npz",
+        "dataset/IEEE-14-bus/fdia_dataset_contiguous_ieee14_zone3.npz"
+      ],
+      "provenance": "project-derived-fdia",
+      "repository": "pinns-models-fdia",
+      "rights_status": "pending-base-dataset-rights"
+    },
+    {
+      "collection_id": "ieee118-transient-and-fault",
+      "evidence_status": "verified-duplicate-preservation-copy",
+      "paths": [
+        "dataset/validation/dataset_3pf_19.mat",
+        "dataset/validation/dataset_20_to_27_Load_Incr.mat",
+        "dataset/validation/dataset_gen26_shutdown.mat",
+        "dataset/validation/dataset_gen59_shutdown.mat"
+      ],
+      "provenance": "paper-facing-preservation-copy",
+      "repository": "pinns-models-fdia-ablation-faults",
+      "rights_status": "pending-simulator-permission"
+    }
+  ]
+}

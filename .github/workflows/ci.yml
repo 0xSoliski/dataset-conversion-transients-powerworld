@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.10"
+          cache: pip
+      - name: Validate shared dataset pointer
+        run: >-
+          python -c "import json; p=json.load(open('DATASET_SOURCE.json'));
+          r=p['record']; assert p['schema_version']==1;
+          assert r['concept_doi']=='10.5281/zenodo.20744597';
+          assert r['resource_type']=='dataset';
+          assert r['file_policy']=='dataset-payloads-only';
+          assert p['collections']"
+      - run: python -m pip install -r requirements.txt pytest
+      - run: python -m pytest -q
+      - name: Run dataset-dependent verification when the Zenodo payload is present
+        shell: bash
+        run: |
+          if [[ -f datasets/psse-via-dnns/original/pypower-ieee118/combined_dataset.mat ]]; then
+            python tools/psse-verification/verify.py
+            python tools/build_scenario_manifest.py --check
+            python tools/build_release_manifest.py --check
+          else
+            echo "Zenodo payload is not part of the GitHub checkout; dataset-dependent checks skipped."
+          fi
