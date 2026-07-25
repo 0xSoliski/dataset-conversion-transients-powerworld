@@ -34,13 +34,3 @@ jobs:
       - name: Check dependency consistency
         run: python -m pip check
 
-      - name: Run dataset-dependent verification when the Zenodo payload is present
-        shell: bash
-        run: |
-          if [[ -f datasets/psse-via-dnns/original/pypower-ieee118/combined_dataset.mat ]]; then
-            python tools/psse-verification/verify.py
-            python tools/build_scenario_manifest.py --check
-            python tools/build_release_manifest.py --check
-          else
-            echo "Zenodo payload is not part of the GitHub checkout; dataset-dependent checks skipped."
-          fi

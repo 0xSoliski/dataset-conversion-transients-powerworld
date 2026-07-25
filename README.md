@@ -10,7 +10,7 @@ Zhang, Wang & Giannakis ([arXiv:1811.06146](https://arxiv.org/abs/1811.06146)).
 See [Citation](#citation) for the full attribution chain.
 
 Source code lives here; the dataset payloads live on Zenodo. This repository
-tracks the pipeline, tests, and checksummed manifests only.
+tracks the pipeline and its tests only.
 
 ## Paper
 
@@ -82,22 +82,10 @@ reference dispatch closely.
 
 ## Data
 
-The dataset payloads come from the shared Zenodo dataset record
-[10.5281/zenodo.20744597](https://doi.org/10.5281/zenodo.20744597) (concept DOI).
-[`DATASET_SOURCE.json`](DATASET_SOURCE.json) is the machine-readable pointer that
-every participating repository shares, and
-[`DATASET_COLLECTIONS.md`](DATASET_COLLECTIONS.md) maps collections to
-repositories. No Git LFS objects are used.
+The datasets are on Zenodo:
+[10.5281/zenodo.20744597](https://doi.org/10.5281/zenodo.20744597).
 
-`datasets/release-manifest.json` inventories every dataset payload with its byte
-size, SHA-256 digest, provenance class, redistribution status, and target
-storage. It stays the authoritative inventory while the dataset-only Zenodo
-version is prepared, and its checksums can only be regenerated from a complete
-local copy of the payload:
-
-```bash
-python tools/build_release_manifest.py --check
-```
+Download them into `datasets/`. That tree is local only and is not committed.
 
 ### The dataset
 
@@ -121,19 +109,11 @@ Scenarios:
 - **gen26_shutdown** — generator at bus 26 tripped offline (validation dataset)
 - **gen59_shutdown** — generator at bus 59 tripped offline (validation dataset)
 
-### Publication boundary
-
-Zenodo holds dataset payloads only. GitHub source archives, Python or MATLAB
-code, workflows, repository metadata, and model implementations are excluded, and
-GitHub-to-Zenodo repository integration is deliberately not used.
-`tools/build_release_manifest.py` rejects non-data files, including code hidden
-inside ZIP payloads, and assigns each approved dataset file a unique Zenodo key.
-
-Rights-cleared payloads use CC BY 4.0, which permits reuse and adaptation **with
-attribution**. The exact scope, attribution text, and third-party exclusions are
-in [`DATA_LICENSE.md`](DATA_LICENSE.md). A collection license never overrides an
-upstream provider's rights; files without verified redistribution permission are
-excluded from the upload package.
+The Zenodo record holds the generated datasets under CC BY 4.0, which allows
+reuse and adaptation with attribution — see [Citation](#citation). The raw
+GEFCom2012 load data and the KIOS PowerWorld case file are inputs obtained from
+their original providers and are not redistributed here; get them from the
+sources listed under Citation.
 
 ## Installation
 
@@ -148,8 +128,7 @@ not needed to reproduce conversion of the tracked exports.
 
 ## Reproducing the results
 
-The CPU suite validates the converter, the manifests, and release metadata
-without any dataset payload present:
+The test suite validates the converter without any dataset present:
 
 ```bash
 python -m pytest -q
@@ -177,13 +156,6 @@ default it discards the first two numeric time points to stay numerically
 compatible with the historical MATLAB converter; pass `--skip-data-rows 0` for
 new exports when those points should be retained.
 
-Check the manifests, whose scenario entries record the schema and SHA-256 digest
-of every source export and generated dataset:
-
-```bash
-python tools/build_scenario_manifest.py --check
-```
-
 Validate a freshly pasted PowerWorld case before running a transient study:
 
 ```bash
@@ -210,9 +182,7 @@ datasets/
     └── matlab/                                PowerWorld export → dataset converter
 tools/
 ├── psse-verification/verify.py                checks lineage against GEFCom2012
-├── powerworld-paste-check/                    Bus/Load/Gen and Ybus consistency checks
-├── build_release_manifest.py                  dataset payload inventory
-└── build_shared_release.py                    cross-repository Zenodo inventory
+└── powerworld-paste-check/                    Bus/Load/Gen and Ybus consistency checks
 tests/                                         CPU suite
 ```
 
@@ -248,10 +218,7 @@ Reuse under CC BY 4.0 requires attribution. The upstream chain is:
 
 ## License
 
-Project code (Python scripts, MATLAB converters, this README) is released under
-the MIT License — see [`LICENSE`](LICENSE). Bundled third-party content is not
-covered by that grant; see
-[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), whose redistribution
-checklist is a release gate. Rights-cleared dataset payloads are licensed
-CC BY 4.0 with mandatory attribution, as described in
-[`DATA_LICENSE.md`](DATA_LICENSE.md).
+Code in this repository (Python scripts, MATLAB converters, this README) is
+released under the MIT License — see [`LICENSE`](LICENSE). The datasets on Zenodo
+are licensed CC BY 4.0 and require attribution — see
+[Citation](#citation) for the credits to include.
