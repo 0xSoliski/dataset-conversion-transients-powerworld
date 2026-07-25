@@ -31,10 +31,10 @@ python -m pip install -r requirements.txt
 PowerWorld Simulator is only needed to create *new* transient exports, not to
 convert existing ones.
 
-Datasets: [10.5281/zenodo.20744597](https://doi.org/10.5281/zenodo.20744597).
-Download into `datasets/`. The raw GEFCom2012 load data and the KIOS `.pwb`/`.pwd`
-case are inputs from their original providers and are not redistributed here — get
-them from the sources under [Citation](#citation).
+The canonical IEEE-118 base dataset and four converted transient/fault
+scenarios are tracked under `datasets/`. The complete historical archive is
+available from [Zenodo v0.1.1](https://doi.org/10.5281/zenodo.20744819).
+The raw GEFCom2012 load data and KIOS case remain with their original providers.
 
 | Entry point | What it does |
 | --- | --- |

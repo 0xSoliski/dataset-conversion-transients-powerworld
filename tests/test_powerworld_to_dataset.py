@@ -31,11 +31,10 @@ def test_python_converter_matches_tracked_mat_dataset(scenario):
     scenario_dir = SCENARIO_ROOT / scenario
     raw_export = scenario_dir / "raw_export.xlsx"
     mat_dataset = scenario_dir / "dataset.mat"
-    available = (raw_export.is_file(), mat_dataset.is_file())
-    if not any(available):
-        pytest.skip("requires the Zenodo transient/fault dataset collection")
-    if not all(available):
-        pytest.fail(f"incomplete Zenodo scenario payload: {scenario}")
+    if not raw_export.is_file():
+        pytest.skip("requires the non-redistributed raw PowerWorld export")
+    if not mat_dataset.is_file():
+        pytest.fail(f"missing converted scenario payload: {scenario}")
 
     _, features, labels = converter.read_powerworld_export(raw_export)
     expected = scipy.io.loadmat(
