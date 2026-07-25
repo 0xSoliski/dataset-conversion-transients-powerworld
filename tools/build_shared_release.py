@@ -115,6 +115,8 @@ def build_manifest(workspace_root: Path, spec_path: Path) -> dict[str, Any]:
                 "source_commit": commit,
                 "rights_status": source["rights_status"],
             }
+            if source.get("attribution"):
+                alias["attribution"] = list(source["attribution"])
             if "paper_alignment_note" in source:
                 alias["paper_alignment_note"] = source["paper_alignment_note"]
             if source["collection_id"] == "ieee118-fdia":
@@ -136,9 +138,17 @@ def build_manifest(workspace_root: Path, spec_path: Path) -> dict[str, Any]:
         collection_ids = sorted({alias["collection_id"] for alias in aliases})
         rights = sorted({alias["rights_status"] for alias in aliases})
         evidence = sorted({alias["evidence_status"] for alias in aliases})
+        canonical = aliases[0]
+        info = file_info[digest]
+        attribution = sorted(
+            {credit for alias in aliases for credit in alias.get("attribution", ())}
+        )
+        # CC BY is only valid with credit, so an approved payload that declares
+        # no attribution stays blocked instead of shipping unattributed.
         upload_eligible = (
             all(status in APPROVED_RIGHTS for status in rights)
             and all(status in VERIFIED_EVIDENCE for status in evidence)
+            and bool(attribution)
         )
         block_reasons = [
             *(f"rights:{status}" for status in rights if status not in APPROVED_RIGHTS),
@@ -147,12 +157,12 @@ def build_manifest(workspace_root: Path, spec_path: Path) -> dict[str, Any]:
                 for status in evidence
                 if status not in VERIFIED_EVIDENCE
             ),
+            *([] if attribution else ["attribution:missing"]),
         ]
-        canonical = aliases[0]
-        info = file_info[digest]
         files.append(
             {
                 "aliases": aliases,
+                "attribution": attribution,
                 "block_reasons": block_reasons,
                 "bytes": info["bytes"],
                 "collection_ids": collection_ids,

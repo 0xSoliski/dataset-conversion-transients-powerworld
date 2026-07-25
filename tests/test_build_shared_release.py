@@ -39,6 +39,7 @@ def test_manifest_deduplicates_aliases_and_records_paper_alignment(
         spec_path,
         [
             {
+                "attribution": ["Falas et al."],
                 "collection_id": "shared",
                 "evidence_status": "verified",
                 "paper_alignment_note": "Exact paper input.",
@@ -48,6 +49,7 @@ def test_manifest_deduplicates_aliases_and_records_paper_alignment(
                 "rights_status": "author-owned-approved",
             },
             {
+                "attribution": ["GEFCom2012 (Tao Hong et al.)"],
                 "collection_id": "shared",
                 "evidence_status": "verified-duplicate-preservation-copy",
                 "paths": ["data/same.csv"],
@@ -72,6 +74,11 @@ def test_manifest_deduplicates_aliases_and_records_paper_alignment(
     assert manifest["files"][0]["aliases"][0]["paper_alignment_note"] == (
         "Exact paper input."
     )
+    # Credit required by CC BY travels with the file, unioned across aliases.
+    assert manifest["files"][0]["attribution"] == [
+        "Falas et al.",
+        "GEFCom2012 (Tao Hong et al.)",
+    ]
 
 
 def test_manifest_explains_rights_and_evidence_blocks(
@@ -102,7 +109,39 @@ def test_manifest_explains_rights_and_evidence_blocks(
     assert manifest["files"][0]["block_reasons"] == [
         "rights:pending-permission",
         "evidence:unverified",
+        "attribution:missing",
     ]
+    assert manifest["files"][0]["license"] is None
+
+
+def test_approved_payload_without_attribution_stays_blocked(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """CC BY is only valid with credit, so cleared rights alone are not enough."""
+    payload = tmp_path / "repo" / "data.csv"
+    payload.parent.mkdir()
+    payload.write_text("value\n1\n", encoding="utf-8")
+    spec_path = tmp_path / "sources.json"
+    _write_spec(
+        spec_path,
+        [
+            {
+                "collection_id": "cleared-but-uncredited",
+                "evidence_status": "verified",
+                "paths": ["data.csv"],
+                "provenance": "author-generated",
+                "repository": "repo",
+                "rights_status": "author-owned-approved",
+            }
+        ],
+    )
+    monkeypatch.setattr(shared_release, "_commit", lambda _path: "abc123")
+
+    manifest = shared_release.build_manifest(tmp_path, spec_path)
+
+    assert manifest["upload_ready"] is False
+    assert manifest["files"][0]["upload_eligible"] is False
+    assert manifest["files"][0]["block_reasons"] == ["attribution:missing"]
     assert manifest["files"][0]["license"] is None
 
 
