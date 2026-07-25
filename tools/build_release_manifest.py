@@ -13,6 +13,9 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DATASET_ROOT = REPO_ROOT / "datasets"
 DEFAULT_OUTPUT = DATASET_ROOT / "release-manifest.json"
 DATASET_LICENSE = "CC-BY-4.0"
+# A redistribution status is resolved once it is either cleared for the record
+# or explicitly withheld from it. Anything else blocks publication.
+RESOLVED_REDISTRIBUTION = frozenset({"approved", "excluded-upstream-original"})
 
 PAYLOAD_SUFFIXES = {
     ".csv",
@@ -39,32 +42,36 @@ def _sha256(path: Path) -> str:
 
 
 def classify_payload(path: Path) -> tuple[str, str, str]:
-    """Return group, provenance class, and redistribution status."""
+    """Return group, provenance class, and redistribution status.
+
+    Author-owned derived data is ``approved`` for the CC BY dataset record.
+    Files obtained unmodified from an upstream provider are
+    ``excluded-upstream-original``: they stay in the local tree because the
+    lineage checks need them, but this project does not redistribute them.
+    """
 
     relative = path.relative_to(DATASET_ROOT)
     parts = relative.parts
 
     if parts[:2] == ("gefcom2012", "original"):
-        return "gefcom2012-upstream", "third-party", "pending-review"
-    if parts[:2] == ("psse-via-dnns", "original"):
-        return "psse-via-dnns-upstream", "third-party", "pending-review"
+        return "gefcom2012-upstream", "third-party", "excluded-upstream-original"
     if parts[:2] in {
         ("powerworld-ieee118", "case"),
         ("powerworld-ieee118", "reference"),
     }:
-        return "kios-powerworld-case", "third-party", "pending-review"
+        return "kios-powerworld-case", "third-party", "excluded-upstream-original"
+    # Derived from the GEFCom2012 load profiles by this project's own
+    # AC-power-flow sampling, so it is author-owned rather than upstream.
+    if parts[:2] == ("psse-via-dnns", "original"):
+        return "ieee118-operating-points", "project-derived", "approved"
     if parts[:2] == ("powerworld-ieee118", "import-files"):
-        return (
-            "powerworld-import-files",
-            "project-derived",
-            "pending-upstream-review",
-        )
+        return "powerworld-import-files", "project-derived", "approved"
     if parts[:2] == ("powerworld-ieee118", "transient-simulations"):
         if path.name == "raw_export.xlsx":
             group = "powerworld-transient-raw-exports"
         else:
             group = "powerworld-transient-derived-datasets"
-        return group, "project-derived", "pending-upstream-review"
+        return group, "project-derived", "approved"
 
     raise ValueError(f"Unclassified dataset payload: {relative}")
 
@@ -150,15 +157,14 @@ def build_manifest() -> dict:
             "status": "draft",
             "version_doi": "10.5281/zenodo.21533592",
         },
-        "repository_transition": {
-            "current_state": "payloads-tracked-in-git",
-            "target_state": "code-manifests-and-small-fixtures-only",
-        },
         "publication_gate": (
-            "Do not publish a new dataset version until every file with a "
-            "pending redistribution status is resolved."
+            "Do not publish a new dataset version while any file still has an "
+            "unresolved redistribution status. Files marked "
+            "excluded-upstream-original are resolved: they are deliberately "
+            "not redistributed."
         ),
-        "upload_ready": bool(files) and all(item["upload_eligible"] for item in files),
+        "upload_ready": bool(files)
+        and all(item["redistribution"] in RESOLVED_REDISTRIBUTION for item in files),
         "files": files,
     }
 

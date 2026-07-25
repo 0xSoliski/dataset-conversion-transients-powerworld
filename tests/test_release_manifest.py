@@ -32,15 +32,23 @@ def test_payload_classification_distinguishes_source_and_derived_data():
         "gen26_shutdown/dataset.mat"
     )
 
+    upstream = REPO_ROOT / "datasets/gefcom2012/original/GEFCOM2012_Data/Load/Holiday_List.csv"
+
     assert release_manifest.classify_payload(source) == (
-        "psse-via-dnns-upstream",
-        "third-party",
-        "pending-review",
+        "ieee118-operating-points",
+        "project-derived",
+        "approved",
     )
     assert release_manifest.classify_payload(derived) == (
         "powerworld-transient-derived-datasets",
         "project-derived",
-        "pending-upstream-review",
+        "approved",
+    )
+    # Files taken unmodified from upstream are never redistributed by this record.
+    assert release_manifest.classify_payload(upstream) == (
+        "gefcom2012-upstream",
+        "third-party",
+        "excluded-upstream-original",
     )
 
 
@@ -69,11 +77,25 @@ def test_release_manifest_allows_only_dataset_payloads():
     assert record["file_policy"] == "dataset-payloads-only"
     assert record["github_integration"] is False
     assert record["repository_archives_allowed"] is False
-    assert manifest["upload_ready"] is False
+    # Every file is either cleared for the record or explicitly withheld.
+    assert manifest["upload_ready"] is True
     keys = [item["zenodo_key"] for item in manifest["files"]]
     assert len(keys) == len(set(keys))
     assert all(item["target_storage"] == "zenodo-dataset-record" for item in manifest["files"])
-    assert not any(item["upload_eligible"] for item in manifest["files"])
+    assert all(
+        item["redistribution"] in release_manifest.RESOLVED_REDISTRIBUTION
+        for item in manifest["files"]
+    )
+    # Upstream originals stay in the inventory but carry no licence grant.
+    withheld = [item for item in manifest["files"] if not item["upload_eligible"]]
+    assert withheld
+    assert all(item["redistribution"] == "excluded-upstream-original" for item in withheld)
+    assert all(item["license"] is None for item in withheld)
+    assert all(
+        item["license"] == "CC-BY-4.0"
+        for item in manifest["files"]
+        if item["upload_eligible"]
+    )
     assert {item["collection_id"] for item in manifest["files"]} == {
         "ieee118-base-state-estimation",
         "ieee118-transient-and-fault",

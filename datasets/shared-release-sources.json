@@ -3,16 +3,28 @@
   "schema_version": 1,
   "sources": [
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "GEFCom2012 load data (Tao Hong et al.); Hong, Pinson & Fan, Int. J. Forecasting, doi:10.1016/j.ijforecast.2013.07.001",
+        "Operating-point sampling methodology after Zhang, Wang & Giannakis, arXiv:1811.06146",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-base-state-estimation",
       "evidence_status": "verified",
       "paths": [
         "datasets/psse-via-dnns/original/pypower-ieee118/combined_dataset.mat"
       ],
-      "provenance": "third-party-upstream",
+      "provenance": "gefcom2012-derived-ac-power-flow-sampling",
       "repository": "dataset-conversion-transients-powerworld",
-      "rights_status": "pending-upstream-permission"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "Dynamic IEEE test-system models: Demetriou, Asprou, Quiros-Tortos & Kyriakides, IEEE Systems Journal 11(4):2108-2117, 2017 (KIOS Research Center, University of Cyprus)",
+        "Transient simulation performed with PowerWorld Simulator",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-transient-and-fault",
       "evidence_status": "verified",
       "paths": [
@@ -27,9 +39,13 @@
       ],
       "provenance": "project-derived-powerworld-export",
       "repository": "dataset-conversion-transients-powerworld",
-      "rights_status": "pending-simulator-permission"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "IEEE 14-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee14-base-state-estimation",
       "evidence_status": "verified",
       "paths": [
@@ -39,9 +55,15 @@
       ],
       "provenance": "project-experiment-dataset",
       "repository": "pinns-models-tii",
-      "rights_status": "pending-simulator-permission"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "Dynamic IEEE test-system models: Demetriou, Asprou, Quiros-Tortos & Kyriakides, IEEE Systems Journal 11(4):2108-2117, 2017 (KIOS Research Center, University of Cyprus)",
+        "Transient simulation performed with PowerWorld Simulator",
+        "IEEE 14-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee14-transient-and-fault",
       "evidence_status": "verified",
       "paths": [
@@ -58,9 +80,15 @@
       ],
       "provenance": "project-derived-powerworld-export",
       "repository": "pinns-models-tii",
-      "rights_status": "pending-simulator-permission"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "GEFCom2012 load data (Tao Hong et al.); Hong, Pinson & Fan, Int. J. Forecasting, doi:10.1016/j.ijforecast.2013.07.001",
+        "Operating-point sampling methodology after Zhang, Wang & Giannakis, arXiv:1811.06146",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-base-state-estimation",
       "evidence_status": "verified",
       "paths": [
@@ -70,9 +98,15 @@
       ],
       "provenance": "paper-format-conversion",
       "repository": "pinns-models-tii",
-      "rights_status": "pending-base-dataset-rights"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "Dynamic IEEE test-system models: Demetriou, Asprou, Quiros-Tortos & Kyriakides, IEEE Systems Journal 11(4):2108-2117, 2017 (KIOS Research Center, University of Cyprus)",
+        "Transient simulation performed with PowerWorld Simulator",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-transient-and-fault",
       "evidence_status": "verified",
       "paths": [
@@ -83,9 +117,13 @@
       ],
       "provenance": "project-derived-powerworld-export",
       "repository": "pinns-models-tii",
-      "rights_status": "pending-simulator-permission"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "IEEE 14-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee14-base-state-estimation",
       "evidence_status": "verified",
       "paths": [
@@ -95,17 +133,27 @@
       ],
       "provenance": "project-experiment-dataset",
       "repository": "pinns-models-csr",
-      "rights_status": "pending-simulator-permission"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "IEEE 14-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee14-fdia",
       "evidence_status": "verified-generated-at-runtime",
       "paths": [],
       "provenance": "deterministic-manipulation-of-clean-test-split",
       "repository": "pinns-models-csr",
-      "rights_status": "pending-base-dataset-rights"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "GEFCom2012 load data (Tao Hong et al.); Hong, Pinson & Fan, Int. J. Forecasting, doi:10.1016/j.ijforecast.2013.07.001",
+        "Operating-point sampling methodology after Zhang, Wang & Giannakis, arXiv:1811.06146",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-fdia",
       "evidence_status": "verified-experiment-artifact",
       "glob_paths": [
@@ -116,9 +164,15 @@
       "paths": [],
       "provenance": "solver-generated-fdia",
       "repository": "pinns-models-fdia",
-      "rights_status": "pending-base-dataset-rights"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "GEFCom2012 load data (Tao Hong et al.); Hong, Pinson & Fan, Int. J. Forecasting, doi:10.1016/j.ijforecast.2013.07.001",
+        "Operating-point sampling methodology after Zhang, Wang & Giannakis, arXiv:1811.06146",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-fdia",
       "evidence_status": "verified-duplicate-preservation-copy",
       "glob_paths": [
@@ -129,9 +183,13 @@
       "paths": [],
       "provenance": "paper-facing-preservation-copy",
       "repository": "pinns-models-fdia",
-      "rights_status": "pending-base-dataset-rights"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "IEEE 14-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee14-fdia",
       "evidence_status": "verified",
       "paths": [
@@ -147,9 +205,15 @@
       ],
       "provenance": "project-derived-fdia",
       "repository": "pinns-models-fdia",
-      "rights_status": "pending-base-dataset-rights"
+      "rights_status": "author-owned-approved"
     },
     {
+      "attribution": [
+        "Falas et al. (dataset authors)",
+        "Dynamic IEEE test-system models: Demetriou, Asprou, Quiros-Tortos & Kyriakides, IEEE Systems Journal 11(4):2108-2117, 2017 (KIOS Research Center, University of Cyprus)",
+        "Transient simulation performed with PowerWorld Simulator",
+        "IEEE 118-bus test case topology (ICSEG, University of Illinois)"
+      ],
       "collection_id": "ieee118-transient-and-fault",
       "evidence_status": "verified-duplicate-preservation-copy",
       "paths": [
@@ -160,7 +224,7 @@
       ],
       "provenance": "paper-facing-preservation-copy",
       "repository": "pinns-models-fdia-ablation-faults",
-      "rights_status": "pending-simulator-permission"
+      "rights_status": "author-owned-approved"
     }
   ]
 }
