@@ -135,52 +135,6 @@ in [`DATA_LICENSE.md`](DATA_LICENSE.md). A collection license never overrides an
 upstream provider's rights; files without verified redistribution permission are
 excluded from the upload package.
 
-### Zenodo record family
-
-The concept DOI above covers all versions. Two published versions are preserved,
-not deprecated:
-
-| Version | Version DOI | Archive MD5 | Files under `datasets/` |
-| --- | --- | --- | ---: |
-| `v0.1.0` | [10.5281/zenodo.20744598](https://doi.org/10.5281/zenodo.20744598) | `1820644a52af2dbe592fd4c4b0858ab1` | 49 |
-| `v0.1.1` | [10.5281/zenodo.20744819](https://doi.org/10.5281/zenodo.20744819) | `9ccfe763b53cb675de1a8823748da66d` | 49 |
-
-Both remain **restricted** because their immutable ZIP files also contain source
-code and repository metadata, so they cannot serve as the canonical public
-dataset package. Their `datasets/` trees are byte-identical to each other and to
-the private preservation copy: all 49 paths and blob IDs match. Of those, 46 are
-data payloads or non-code sidecars and three are source files that stay on
-GitHub:
-
-```text
-datasets/powerworld-ieee118/matlab/powerworld_to_dataset.m
-datasets/powerworld-ieee118/matlab/ybus_converter.m
-datasets/psse-via-dnns/derived/powerworld-static/generate.py
-```
-
-The dataset-only manifest excludes those three. The current tree adds only
-`datasets/powerworld-ieee118/transient-simulations/manifest.json` and
-`datasets/release-manifest.json`, so the 46 payloads must not be re-uploaded as a
-competing record merely because the migration added manifests.
-
-The dataset-only `v0.2.0` draft is Zenodo record
-[21533592](https://zenodo.org/records/21533592) with reserved version DOI
-`10.5281/zenodo.21533592`. It is configured as a public Dataset under CC BY 4.0
-and currently holds **zero files**. Its metadata explicitly excludes code,
-trained models, software environments, and generated figures, and the reserved
-DOI is not registered until the record is published.
-
-Commit identifiers for the pre-migration, data-bearing history are deliberately
-omitted here. Those objects are unreachable from any ref or tag but remain
-retrievable by identifier until GitHub garbage-collects them; a Support request
-to do so is outstanding. The archive MD5s above are sufficient equivalence
-evidence.
-
-Publishing stays blocked until redistribution rights are verified and an upload
-package independently matches `datasets/shared-release-manifest.json`. Do not
-make the code-containing versions public again or treat them as runtime
-dependencies.
-
 ## Installation
 
 The supported baseline is Linux, Python 3.10.
